@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complete HTML Form</title>
+</head>
+
+<body>
+
+<h1 align="center">Student Registration Form</h1>
+
+<form action="success.html"
+      method="post"
+      autocomplete="on"
+      target="_blank">
+
+<fieldset>
+
+<legend><b>Student Details</b></legend>
+
+<label>Full Name:</label>
+<input type="text"
+       name="name"
+       placeholder="Enter your name"
+       maxlength="30"
+       required>
+<br><br>
+
+<label>Email:</label>
+<input type="email"
+       name="email"
+       placeholder="Enter your email"
+       required>
+<br><br>
+
+<label>Password:</label>
+<input type="password"
+       name="password"
+       placeholder="Enter password"
+       required>
+<br><br>
+
+<label>Phone Number:</label>
+<input type="tel"
+       name="phone"
+       placeholder="9876543210"
+       maxlength="10">
+<br><br>
+
+<label>Age:</label>
+<input type="number"
+       min="18"
+       max="60"
+       step="1">
+<br><br>
+
+<label>Date of Birth:</label>
+<input type="date">
+<br><br>
+
+<label>Gender:</label>
+
+<input type="radio"
+       name="gender"
+       checked>Male
+
+<input type="radio"
+       name="gender">Female
+
+<input type="radio"
+       name="gender">Other
+
+<br><br>
+
+<label>Hobbies:</label>
+
+<input type="checkbox">Reading
+
+<input type="checkbox" checked>Coding
+
+<input type="checkbox">Music
+
+<input type="checkbox">Sports
+
+<br><br>
+
+<label>Course:</label>
+
+<select>
+
+<option selected>Select Course</option>
+
+<option>B.Tech</option>
+
+<option>BCA</option>
+
+<option>MCA</option>
+
+<option>B.Sc</option>
+
+</select>
+
+<br><br>
+
+<label>Programming Language:</label>
+
+<select multiple>
+
+<optgroup label="Frontend">
+
+<option>HTML</option>
+
+<option>CSS</option>
+
+<option>JavaScript</option>
+
+</optgroup>
+
+<optgroup label="Backend">
+
+<option>Node.js</option>
+
+<option>Python</option>
+
+<option>Java</option>
+
+</optgroup>
+
+</select>
+
+<br><br>
+
+<label>City:</label>
+
+<input list="city">
+
+<datalist id="city">
+
+<option value="Hyderabad">
+
+<option value="Delhi">
+
+<option value="Mumbai">
+
+<option value="Bangalore">
+
+</datalist>
+
+<br><br>
+
+<label>Address:</label>
+
+<br>
+
+<textarea rows="5"
+          cols="40"
+          placeholder="Enter Address">
+</textarea>
+
+<br><br>
+
+<label>Upload Resume:</label>
+
+<input type="file">
+
+<br><br>
+
+<label>Favourite Color:</label>
+
+<input type="color">
+
+<br><br>
+
+<label>Skill Level:</label>
+
+<input type="range"
+       min="0"
+       max="100">
+
+<br><br>
+
+<label>Website:</label>
+
+<input type="url"
+       placeholder="https://example.com">
+
+<br><br>
+
+<label>Search:</label>
+
+<input type="search"
+       placeholder="Search here">
+
+<br><br>
+
+<label>College Name:</label>
+
+<input type="text"
+       value="Silicon University"
+       readonly>
+
+<br><br>
+
+<label>Country:</label>
+
+<input type="text"
+       value="India"
+       disabled>
+
+<br><br>
+
+<input type="submit" value="Submit">
+
+<input type="reset" value="Reset">
+
+<button type="button">
+Click Me
+</button>
+
+</fieldset>
+
+</form>
+
+</body>
+</html>
