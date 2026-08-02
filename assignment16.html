@@ -1,0 +1,56 @@
+<!--Design a web page and perform the following operation – 
+a. Link an audio file to the html page 
+b. Display a video on the web page 
+c. Link one YouTube video onto your web page 
+d. Display the Google Map location of SIT Bhubaneswar on your web page.-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multimedia Web Page</title>
+</head>
+<body>
+
+    <h1>HTML Multimedia Assignment</h1>
+
+    <!-- (a) Audio -->
+    <h2>Audio File</h2>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <hr>
+
+    <!-- (b) Video -->
+    <h2>Video File</h2>
+    <video width="500" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <hr>
+
+    <!-- (c) YouTube Video -->
+    <h2>YouTube Video</h2>
+    <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        title="YouTube video"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+
+    <hr>
+
+    <!-- (d) Google Map -->
+    <h2>Google Map - Silicon Institute of Technology (SIT), Bhubaneswar</h2>
+    <iframe
+        src="https://www.google.com/maps?q=Silicon+Institute+of+Technology+Bhubaneswar&output=embed"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+
+</body>
+</html>
